@@ -1,0 +1,642 @@
+.entete{
+    background-image: url(img\ head.jpeg);
+    align-items: center;
+    justify-content: space-between;
+    word-spacing: 7px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    width: 100%;
+}
+.monlogo{
+    width: 150px;
+    border-radius: 50%;
+    transition: transform 0.9s;
+}
+.monlogo:hover{
+    transform: scale(1.1);
+}
+.cuisine{
+    width: 300px;
+    height: auto;
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+     border-radius: 10px;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: x-large;
+     transition: transform 0,9s;
+     box-shadow: 0 5px 15px;
+
+
+}
+.cuisine:hover{
+    transform: scale(1.1);
+}
+.terrasse{
+    width: 300px;
+    height: auto;
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+     border-radius: 10px;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: x-large;
+     transition: transform 0,9s;
+     box-shadow: 0 5px 15px;
+
+     
+
+}
+.terrasse:hover{
+    transform: scale(1.1);
+}
+.livraison{
+    width: 300px;
+    height: auto;
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+     border-radius: 10px;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: x-large;
+     transition: transform 0,9s;
+     box-shadow: 0 5px 15px;
+
+}
+.livraison:hover{
+    transform: scale(1.1);
+}
+
+.point-fort{
+    display: flex;
+    justify-content:center;
+    gap: 90px;
+}
+   
+h1{
+    text-align: center;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    
+}
+body{
+    background-color: rosybrown;
+    
+    
+    color:black;
+}
+.présentation{
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+
+img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    
+    
+    
+}
+.accaras{
+    background-color: #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+.accaras img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+    
+    flex-direction: row;
+    gap: 30px;
+
+}
+.btn-abb{
+    background-color: brown;
+}
+.menu{
+    background-color: rosybrown;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+@media (max-width 900px) {
+    .point-fort{
+        
+        flex-direction : column;
+        gap: 15px;
+    }
+    .galerie{
+        flex-wrap: wrap;
+    }
+    .galerie1{
+        flex-wrap: wrap;
+    }
+    
+
+    
+}
+.legume{
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+   
+}
+.legume img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+
+}
+.beignets{
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+.beignets img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.yassa{
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+.yassa img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.dienne{
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+.dienne img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.Mafé{
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+.Mafé img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.alloco{
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+.alloco img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.végétarienne{
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+.végétarienne img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.atiéké{
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+
+
+.Accompagnements img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.riz_au_gras{
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+.riz_au_gras img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.bananes{
+background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+.bananes img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.beignets_sucrét{
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+.beignets_sucrét img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.Salade{
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+.Salade img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.gateaux{
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+.gateaux img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.bissap{
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+.bissap img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.gingembre{
+    background-color: #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+.gingembre img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.tamarin{
+    background-color:  #F3E5D0;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+
+}
+.tamarin img{
+    padding: 10px auto;
+    margin: 10px auto;
+    border-radius: 20px;
+
+}
+.moi{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.rule{
+    width: 70px;
+    height: 3px;
+    background-color: gold;
+    margin: 20px auto 0;
+    border-radius: 10px;
+}
+.yassa1{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+    
+    
+}
+.dieune1{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+}
+.alloco1{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+}
+.banane1{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+}
+.riz_au_gras1{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+}
+.tamarin1{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+}
+.legume1{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+}
+.salon{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+}
+.moi1{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+}
+.photo{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+}
+.galerie{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+.plat{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+}
+.plat2{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+}
+.salon3{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+}
+.plat3{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+}
+.image_de_fond{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+}
+.plat4{
+    width: 300px;
+    height: 250px;
+    background-color: #F3E5D0;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px;
+}
+.galerie1{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 5px;
+    margin: 5px;
+
+}
+.galerie2{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+.galerie3{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+p{
+    text-align: center;
+}
+.h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.rule1{
+    width: 250px;
+    height: 2px;
+    background-color: goldenrod;
+}
+.coordonnées{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+footer{
+    text-align: right;
+}
+.Réserver{
+    background-color: gold;
+}
+.id{
+    background-color: gold;
+    border-radius: 20px;
+    width: 70px;
+     text-align: center;
+}
+
+.id1{
+    background-color: gold;
+    
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+.id2{
+    background-color: gold;
+    
+    border-radius: 20px;
+    width: 80px;
+     text-align: center;
+}
+
+.id3{
+    background-color: gold;
+    
+    border-radius: 20px;
+    width: 100px;
+     text-align: center;
+}
+
+.id4{
+     background-color: gold;
+
+    border-radius: 20px;
+    width: 70px;
+     text-align: center;
+}
+.id0{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+@media(max-width: 768px){
+    header{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .point-fort{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 15px;
+    }
+    .galerie{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 10px;
+    }
+    .galerie1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 10px;
+    }
+    .galerie2{
+         display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 10px;
+    }
+    .galerie3{
+         display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 10px;
+    }
+    .id0{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+        
+    }
+}
